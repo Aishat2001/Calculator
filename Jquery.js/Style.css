@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: pink; */
+    font-family: 'Workbench', sans-serif;
+}
+header{
+    height: 100px;
+    background:white ;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ /* h2{
+    color: brown;
+    display: inline-block;
+    justify-content: right;
+    align-items: right;
+    padding: ;
+}  */
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: red;
+    display: inline-block;
+}
+li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background:green ;
+    transition: all 5s;
+}
+li a:hover::after{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    /* border: 1px solid; */
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+}
+.pics{
+    max-width: 670px;
+    height: 200px;
+    width: auto;
+}
+.hero-img{
+    max-width: 670px;
+    height: auto;
+}
+.content-left{
+    width: 30%;
+}
+main h1{
+    font-size: 54px;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+main h3{
+    font-size: 25px;
+    color: yellow;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+main p{
+    font-size: 14px;
+    font-weight: 400;
+    color: orange;
+    line-height: 31.5px;
+    margin: 30px o;
+}
+.btn{
+    padding: 15px 30px;
+    background: grey;
+    color: azure;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+
+
+
